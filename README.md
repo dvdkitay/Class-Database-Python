@@ -5,7 +5,7 @@
 
 <h1>Подключение</h1>
 
-<li>from loader import db
+from loader import db
 
 <h1>Использование</h1>
 
