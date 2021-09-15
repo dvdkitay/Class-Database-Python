@@ -13,8 +13,8 @@
         
         db.fetchall("SELECT * from table")
 2. Вставить данные
-db.query("INSERT INTO table VALUES '{0}'".format(id)
+        db.query("INSERT INTO table VALUES '{0}'".format(id)
 3. Обновить данные
-db.query("UPDATE table SET id = '{0}' WHERE order_id='{1}'".format(id, order_id))
+        db.query("UPDATE table SET id = '{0}' WHERE order_id='{1}'".format(id, order_id))
 4. Удалить
-db.query("DELETE FROM table WHERE id='{0}'".format(user))
+        db.query("DELETE FROM table WHERE id='{0}'".format(user))
