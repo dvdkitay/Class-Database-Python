@@ -15,7 +15,7 @@ from loader import db
         
 Вставить данные
         
-        db.query("INSERT INTO table VALUES '{0}'".format(id)
+        db.query('INSERT INTO users VALUES (?, ?, ?, ?)', (id, name, login, password))
         
 Обновить данные
         
